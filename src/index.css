@@ -10,6 +10,12 @@
   
   body {
     @apply bg-white dark:bg-gray-900 transition-colors duration-200;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #root {
+    @apply h-screen;
   }
 }
 
@@ -50,4 +56,17 @@
 
 ::-webkit-scrollbar-thumb:hover {
   @apply bg-gray-500 dark:bg-gray-500;
+}
+
+/* Slider styles */
+.slider {
+  background: linear-gradient(to right, #10A37F, #10A37F);
+}
+
+.slider::-webkit-slider-thumb {
+  @apply appearance-none w-4 h-4 bg-claude-green rounded-full cursor-pointer;
+}
+
+.slider::-moz-range-thumb {
+  @apply w-4 h-4 bg-claude-green rounded-full cursor-pointer border-0;
 }
