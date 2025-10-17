@@ -5,6 +5,7 @@ import { SettingsProvider } from './contexts/SettingsContext'
 import Layout from './components/Layout/Layout'
 import ChatPage from './pages/ChatPage'
 import SettingsPage from './pages/SettingsPage'
+import './index.css'
 
 function App() {
   return (
