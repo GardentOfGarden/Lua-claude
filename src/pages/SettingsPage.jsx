@@ -80,7 +80,7 @@ function SettingsPage() {
             <div>
               <label className="block text-sm font-medium text-gray-900 dark:text-white mb-2">
                 Max Tokens: {settings.maxTokens}
-              </label>
+                </label>
               <input
                 type="range"
                 min="100"
